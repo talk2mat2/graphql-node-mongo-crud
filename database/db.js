@@ -3,7 +3,7 @@
 // const connection = async () => {
 //   console.log("connecting to database");
 //   await mongoose.connect(
-//     "mongodb+srv://Martins_c:chibuzo1@cluster0.gussd.mongodb.net/graphql?retryWrites=true&w=majority",
+//     "mongodb+srv://xxxx:xxxxx@cluster0.gussd.mongodb.net/graphql?retryWrites=true&w=majority",
 //     {
 //       useNewUrlParser: true,
 //       useUnifiedTopology: true,
@@ -25,7 +25,7 @@
 const mongoose = require("mongoose");
 
 //var url = "mongodb://localhost:27017/martins";
-const url = `mongodb+srv://Martins_c:chibuzo1@cluster0-gussd.mongodb.net/graphql?retryWrites=true&w=majority`;
+const url = `mongodb+srv://xxxxx:xxxx@cluster0-gussd.mongodb.net/graphql?retryWrites=true&w=majority`;
 
 const connectDB = async () => {
   await mongoose.connect(
